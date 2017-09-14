@@ -1,10 +1,9 @@
 <?php
-#sublime git test
 class base{
 	public function sayHello(){
 		echo "Hello";
 	}
-} 
+}
 trait sayPhp{
 	public function sayHello(){
 		parent::sayHello();
